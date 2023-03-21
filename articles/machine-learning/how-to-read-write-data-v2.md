@@ -119,7 +119,7 @@ ml_client = MLClient.from_config()
 
 # Possible Paths for Data:
 # Blob: https://<account_name>.blob.core.windows.net/<container_name>/<folder>/<file>
-# Datastore: azureml://datastores/paths/<folder>/<file>
+# Datastore: azureml://datastores/<data_store_name>/paths/<path>
 # Data Asset: azureml:<my_data>:<version>
 
 my_job_inputs = {
